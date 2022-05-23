@@ -121,16 +121,6 @@ function draw(){
 draw()
 */
 
-
-/*
-var image = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");  // here is the most important part because if you dont replace you will get a DOM 18 exception.
-
-
-window.location.href=image;
-*/
-
-
-
 ctx.arc(175, 175, 50, 0, Math.PI * 2)
 ctx.shadowColor = "rgba(0, 0, 0, .4)"
 ctx.shadowOffsetX = 5
