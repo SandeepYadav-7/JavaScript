@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #42445A;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: absolute;
+  display: inline-block;
+  overflow: scroll;
+  width: 370px;
+  height: 370px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  /* background: #ccc; */
+  padding: 15px 0;
+}
+
+#image {
+  width: 95%;
+  border: 1px dashed black;
+  border-radius: 5px;
+}
+
+.button {
+  position: relative;
+  top: 15px;
+  padding: 7px 13px;
+  background: #7a7ead;
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+
+}
+
+.button:active{
+  background: #fff;
+  color: #7A7EAD;
+  transition: .3s;
+}
